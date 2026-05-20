@@ -9,3 +9,7 @@ def index(request):
 
 def task1(request):
     return render(request, "task1.html")
+
+
+def task2(request):
+    return render(request, "task2.html")
