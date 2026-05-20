@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, "index.html")
+
+
+def task1(request):
+    return render(request, "task1.html")
