@@ -13,3 +13,7 @@ def task1(request):
 
 def task2(request):
     return render(request, "task2.html")
+
+
+def task3(request):
+    return render(request, "index.html")
