@@ -25,3 +25,7 @@ def task4(request):
 
 def task5(request):
     return render(request, "index.html")
+
+
+def task6(request):
+    return render(request, "index.html")
