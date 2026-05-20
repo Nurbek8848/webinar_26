@@ -33,3 +33,7 @@ def task6(request):
 
 def task7(request):
     return render(request, "index.html")
+
+
+def task8(request):
+    return render(request, "index.html")
