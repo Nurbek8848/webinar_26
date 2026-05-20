@@ -17,3 +17,7 @@ def task2(request):
 
 def task3(request):
     return render(request, "index.html")
+
+
+def task4(request):
+    return render(request, "task4.html")
